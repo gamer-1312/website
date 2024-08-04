@@ -1,0 +1,44 @@
+html {
+    font-size: 25px;
+    font-family: "Alumni Sans", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p,
+li {
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+p, h1, li {
+    color: white;
+}
+
+html {
+    background-color: #1c1c1c;
+}
+
+body {
+    width: 900px;
+    margin: auto;
+    background-color: #1c1c1c;
+    padding: 0 20px 20px 20px;
+    border: 5px solid grey;
+}
+
+h1 {
+    margin: auto;
+    padding: 20px 0;
+    color: white;
+    text-shadow: 3px 3px 1px #f23ae5;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
