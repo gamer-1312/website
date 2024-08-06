@@ -22,11 +22,6 @@ img[src="./images/kuromionline.gif"] {
     margin: auto;
 }
 
-/* custom cursor /////////////////////////////////////////////////////////////////////////////////*/
-
-?
-
-
 /* body and bg color //////////////////////////////////////////////////////////////////////////// */
 
 html {
@@ -64,6 +59,10 @@ nav a {
 
 /*normal text*/
 
+p {
+margin: 0px;
+}
+
 p,
 li {
     font-size: 25px;
@@ -72,6 +71,17 @@ li {
     color: white;
 }
 
-html {
-    background-color: #f998c5;
+/*paw cursor*/
+
+html, root {
+min-height: 100%;
+}
+
+:root {
+cursor:url(/website/images/normsl.png), auto;
+
+}
+
+a {
+cursor:url(/website/images/paw.cur), auto;
 }
