@@ -1,0 +1,77 @@
+/* fonts ////////////////////////////////////////////////////////////////////////////////// */
+
+html {
+    font-size: 25px;
+    font-family: "Alumni Sans", sans-serif;
+}
+
+h1 {
+    background: url("");
+    font-size: 80px !important;
+    font-family: UnifrakturMaguntia;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff0080;
+    text-align: center;
+    display: block;
+    color: pink;
+}
+
+/* change kuromionline.gif location  /////////////////////////////////////////////////////////////*/
+img[src="./images/kuromionline.gif"] {
+    display: block;
+    margin: auto;
+}
+
+/* custom cursor /////////////////////////////////////////////////////////////////////////////////*/
+
+?
+
+
+/* body and bg color //////////////////////////////////////////////////////////////////////////// */
+
+html {
+    background-color: #f998c5;
+}
+
+body {
+    width: 1280px;
+    margin: auto;
+    background-color: #1c1c1c;
+    padding: 0 20px 20px 20px;
+    border: 5px solid grey;
+}
+
+/* navigation list //////////////////////////////////////////////////////////////////////////////// */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    width: 20%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff0080;
+    font-family: UnifrakturMaguntia, sans-serif;
+}
+
+/*normal text*/
+
+p,
+li {
+    font-size: 25px;
+    line-height: ;
+    margin-bottom: 1px;
+    color: white;
+}
+
+html {
+    background-color: #f998c5;
+}
