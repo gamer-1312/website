@@ -1,44 +1,77 @@
+/* fonts ////////////////////////////////////////////////////////////////////////////////// */
+
 html {
     font-size: 25px;
     font-family: "Alumni Sans", sans-serif;
 }
 
 h1 {
-    font-size: 60px;
+    background: url("");
+    font-size: 80px !important;
+    font-family: UnifrakturMaguntia;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff0080;
     text-align: center;
+    display: block;
+    color: pink;
 }
 
-p,
-li {
-    font-size: 25px;
-    line-height: 2;
-    letter-spacing: 1px;
+/* change kuromionline.gif location  /////////////////////////////////////////////////////////////*/
+img[src="./images/kuromionline.gif"] {
+    display: block;
+    margin: auto;
 }
 
-p, h1, li {
-    color: white;
-}
+/* custom cursor /////////////////////////////////////////////////////////////////////////////////*/
+
+?
+
+
+/* body and bg color //////////////////////////////////////////////////////////////////////////// */
 
 html {
-    background-color: #1c1c1c;
+    background-color: #f998c5;
 }
 
 body {
-    width: 900px;
+    width: 1280px;
     margin: auto;
     background-color: #1c1c1c;
     padding: 0 20px 20px 20px;
     border: 5px solid grey;
 }
 
-h1 {
-    margin: auto;
-    padding: 20px 0;
-    color: white;
-    text-shadow: 3px 3px 1px #f23ae5;
+/* navigation list //////////////////////////////////////////////////////////////////////////////// */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
-img {
-    display: block;
-    margin: auto;
+nav li {
+    width: 20%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff0080;
+    font-family: UnifrakturMaguntia, sans-serif;
+}
+
+/*normal text*/
+
+p,
+li {
+    font-size: 25px;
+    line-height: ;
+    margin-bottom: 1px;
+    color: white;
+}
+
+html {
+    background-color: #f998c5;
 }
